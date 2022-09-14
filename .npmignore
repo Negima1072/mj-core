@@ -3,3 +3,5 @@ coverage/
 test/
 dev/
 setver.sh
+vite.config.*
+!dist/
