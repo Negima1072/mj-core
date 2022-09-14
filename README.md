@@ -1,4 +1,4 @@
-# @mj/core
+# @tanimodori/mj-core
 
 麻雀基本ライブラリ
 
@@ -7,7 +7,7 @@
 ## インストール
 
 ```sh
-$ npm i @mj/core
+$ npm i @tanimodori/mj-core
 ```
 
 ## 使用法
@@ -15,15 +15,15 @@ $ npm i @mj/core
 `CommonJS`:
 
 ```javascript
-const Majiang = require('@mj/core');
+const Majiang = require('@tanimodori/mj-core');
 ```
 
 `ESModule`:
 
 ```javascript
-import Majiang from '@mj/core';
+import Majiang from '@tanimodori/mj-core';
 // or
-import { Shoupai } from '@mj/core';
+import { Shoupai } from '@tanimodori/mj-core';
 ```
 
 ## 提供機能

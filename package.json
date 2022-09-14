@@ -1,5 +1,5 @@
 {
-  "name": "@mj/core",
+  "name": "@tanimodori/mj-core",
   "version": "0.2.10",
   "description": "麻雀基本ライブラリ",
   "publishConfig": {
