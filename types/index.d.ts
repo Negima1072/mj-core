@@ -1,5 +1,5 @@
-// Type definitions for @kobalab/majiang-core 0.2.10
-// Project: https://github.com/kobalab/majiang-core
+// Type definitions for @mj/core 0.2.10
+// Project: https://github.com/Tanimodori/mj-core
 // Definitions by: Tanimodori <https://github.com/Tanimodori>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 4.8

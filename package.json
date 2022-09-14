@@ -1,5 +1,5 @@
 {
-  "name": "@kobalab/majiang-core",
+  "name": "@mj/core",
   "version": "0.2.10",
   "description": "麻雀基本ライブラリ",
   "publishConfig": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kobalab/majiang-core.git"
+    "url": "git+https://github.com/Tanimodori/mj-core.git"
   },
   "keywords": [
     "麻雀",
@@ -24,9 +24,9 @@
   "author": "Satoshi Kobayashi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kobalab/majiang-core/issues"
+    "url": "https://github.com/Tanimodori/mj-core/issues"
   },
-  "homepage": "https://github.com/kobalab/majiang-core#readme",
+  "homepage": "https://github.com/Tanimodori/mj-core#readme",
   "devDependencies": {
     "mocha": "^9.2.0",
     "nyc": "^15.1.0",

@@ -4,12 +4,12 @@
 
 ## インストール
 ```sh
-$ npm i @kobalab/majiang-core
+$ npm i @mj/core
 ```
 
 ## 使用法
 ```javascript
-const Majiang = require('@kobalab/majiang-core');
+const Majiang = require('@mj/core');
 ```
 
 ## 提供機能
@@ -23,10 +23,10 @@ const Majiang = require('@kobalab/majiang-core');
 | ``Majiang.Board``   | 卓に関する情報を表現するクラス       |
 | ``Majiang.Player``  | 対局者を実現する基底クラス           |
 
-- [API仕様](https://github.com/kobalab/majiang-core/wiki)
+- [API仕様](https://github.com/Tanimodori/mj-core/wiki)
 
 ## ライセンス
-[MIT](https://github.com/kobalab/majiang-core/blob/master/LICENSE)
+[MIT](https://github.com/Tanimodori/mj-core/blob/master/LICENSE)
 
 ## 作者
 [Satoshi Kobayashi](https://github.com/kobalab)
