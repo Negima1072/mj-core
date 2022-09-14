@@ -21,7 +21,16 @@
     "麻雀",
     "電脳麻将"
   ],
-  "author": "Satoshi Kobayashi",
+  "contributors": [
+    {
+      "name": "Satoshi Kobayashi",
+      "url": "https://github.com/kobalab"
+    },
+    {
+      "name": "Tanimodori",
+      "url": "https://github.com/Tanimodori"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Tanimodori/mj-core/issues"

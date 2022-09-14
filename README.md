@@ -1,18 +1,33 @@
-# majiang-core
+# @mj/core
 
 麻雀基本ライブラリ
 
+このリポジトリは [`@kobalab/majiang-core`](https://github.com/kobalab/majiang-core) のフォークである。現在は TypeScript 型定義ファイルや ESM 支援を提供している。後には TypeScript へ移行予定です。
+
 ## インストール
+
 ```sh
 $ npm i @mj/core
 ```
 
 ## 使用法
+
+`CommonJS`:
+
 ```javascript
 const Majiang = require('@mj/core');
 ```
 
+`ESModule`:
+
+```javascript
+import Majiang from '@mj/core';
+// or
+import { Shoupai } from '@mj/core';
+```
+
 ## 提供機能
+
 | クラス名            | 機能                                 |
 |:--------------------|:-------------------------------------|
 | ``Majiang.Shoupai`` | 手牌を表現するクラス                 |
@@ -26,7 +41,10 @@ const Majiang = require('@mj/core');
 - [API仕様](https://github.com/Tanimodori/mj-core/wiki)
 
 ## ライセンス
+
 [MIT](https://github.com/Tanimodori/mj-core/blob/master/LICENSE)
 
 ## 作者
-[Satoshi Kobayashi](https://github.com/kobalab)
+
+- [Satoshi Kobayashi](https://github.com/kobalab)
+- [Tanimodori](https://github.com/Tanimodori)
