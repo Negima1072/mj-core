@@ -14,6 +14,7 @@ import Player from "./player";
 import Util from "./util";
 
 export { rule, Shoupai, Shan, He, Board, Game, Player, Util };
+export * from "./util";
 
 // Pure types
 export * from "./view";
