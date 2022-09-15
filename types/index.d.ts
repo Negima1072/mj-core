@@ -4,19 +4,13 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 4.8
 
-/* eslint-disable @typescript-eslint/triple-slash-reference */
-/// <reference path="data.d.ts" />
-/// <reference path="rule.d.ts" />
-/// <reference path="xiangting.d.ts" />
-/// <reference path="hule.d.ts" />
-/// <reference path="message.d.ts" />
-/// <reference path="shoupai.d.ts" />
-/// <reference path="shan.d.ts" />
-/// <reference path="he.d.ts" />
-/// <reference path="game.d.ts" />
-/// <reference path="boardinfo.d.ts" />
-/// <reference path="board.d.ts" />
-/// <reference path="player.d.ts" />
-/// <reference path="view.d.ts" />
+import rule from "./rule";
+import Shoupai from "./shoupai";
+import Shan from "./shan";
+import He from "./he";
+import Board from "./board";
+import Game from "./game";
+import Player from "./player";
+import Util from "./util";
 
-export = Majiang
+export { rule, Shoupai, Shan, He, Board, Game, Player, Util };
