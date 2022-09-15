@@ -36,10 +36,10 @@ export function xiangting_guoshi(shoupai: Shoupai): number;
 
 /**
  * **`shoupai`** に1枚加えるとシャンテン数の進む{@link Pai | 牌}の配列を返す。
- * `f_xiangting` で指定された関数をシャンテン数計算の際に使用する。
+ * **`f_xiangting`** で指定された関数をシャンテン数計算の際に使用する。
  * @param shoupai {@link Shoupai | 手牌}
  * @param f_xiangting 指定されたシャンテン数計算関数。
- * @returns 進む{@link Pai | 牌}の配列。返り値には赤牌は含まない。**`shoupai`** がツモると多牌になる場合は `null` を返す。
+ * @returns 進む{@link Pai | 牌}の配列。返り値には赤牌は含まない。 **`shoupai`** がツモると多牌になる場合は `null` を返す。
  */
 export function tingpai(
   shoupai: Shoupai,

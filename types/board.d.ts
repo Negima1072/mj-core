@@ -118,7 +118,7 @@ export default class Board implements BoardInfo {
   /**
    * **`pingju`** を卓情報に反映する。
    * @param pingju {@link Pingju} (または {@link PingjuGameMessage})
-   * @remarks **`defen`**は使われていない。
+   * @remarks **`defen`** は使われていない。
    */
   pingju(pingju: Pick<Pingju["pingju"], "name" | "shoupai">): void;
 

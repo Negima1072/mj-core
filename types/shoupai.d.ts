@@ -20,7 +20,7 @@ export default class Shoupai {
   static valid_mianzi(m: Menzi): Menzi | null;
 
   /**
-   * **`qipai`** (配牌)からインスタンスを生成する。**`qipai`** の要素数は13でなくてもよい。
+   * **`qipai`** (配牌)からインスタンスを生成する。 **`qipai`** の要素数は13でなくてもよい。
    * @param qipai {@link Pai | 牌}の配列
    */
   constructor(qipai?: Pai[]);
