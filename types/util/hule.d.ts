@@ -1,6 +1,6 @@
 import { Pai, Huleyi, Menzi } from "../data";
 import { Rule } from "../rule";
-import { Shoupai } from "../shoupai";
+import Shoupai from "../shoupai";
 
 /**
  * **`shoupai`** の和了点を計算し、和了情報とともに返す。

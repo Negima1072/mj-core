@@ -1,7 +1,7 @@
 import { Paipu } from "./data";
-import { He } from "./he";
-import { Shan } from "./shan";
-import { Shoupai } from "./shoupai";
+import He from "./he";
+import Shan from "./shan";
+import Shoupai from "./shoupai";
 
 /**
  * 描画の際に使用する卓に関する情報を表現するオブジェクト

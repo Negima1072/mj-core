@@ -3,7 +3,7 @@ import { Pai, Menzi } from "./data";
 /**
  * 捨て牌を表現するクラス
  */
-export class He {
+export default class He {
   /**
    * インスタンスを生成する。
    */

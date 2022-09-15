@@ -219,4 +219,4 @@ export interface Rule {
  * @param params カスタムルール
  * @returns ルール
  */
-export function rule(params?: Partial<Rule>): Rule;
+export default function rule(params?: Partial<Rule>): Rule;

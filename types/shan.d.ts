@@ -4,7 +4,7 @@ import { Rule } from "./rule";
 /**
  * 牌山を表現するクラス
  */
-export class Shan {
+export default class Shan {
   /**
    * ドラ表示牌が **`p`** の場合のドラを返す。
    * @param p ドラ表示{@link Pai | 牌}

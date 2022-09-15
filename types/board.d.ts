@@ -24,7 +24,7 @@ import {
 } from "./message";
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
-export interface Board extends BoardInfo {}
+export default interface Board extends BoardInfo {}
 
 /**
  * 開局時の卓情報
@@ -35,7 +35,7 @@ export interface BoardKaijuParams {
   player: string[];
   qijia: number;
 }
-export class Board implements BoardInfo {
+export default class Board implements BoardInfo {
   /**
    * **`kaiju`** から開局時の卓情報を生成する。
    * **`kaiju`** が指定されない場合は、空の卓情報を生成する。

@@ -1,6 +1,6 @@
 import { BoardInfo } from "./boardInfo";
 import { Paipu, Pai, Menzi } from "./data";
-import { He } from "./he";
+import He from "./he";
 import {
   PlayerMessage,
   GameMessage,
@@ -16,8 +16,8 @@ import {
   GangzimoGameMessage,
 } from "./message";
 import { Rule } from "./rule";
-import { Shan } from "./shan";
-import { Shoupai } from "./shoupai";
+import Shan from "./shan";
+import Shoupai from "./shoupai";
 
 /**
  * 対応呼び出し関数
@@ -29,7 +29,7 @@ export type ReplyCallback = (reply?: PlayerMessage) => void;
  * 唯一のメソッド {@link Player.action} の非同期呼び出しで受信した {@link GameMessage} に対して行動を決定し、 {@link PlayerMessage} を応答する。
  * 本クラスは抽象クラスであり、{@link Player.action} から各メッセージに対応するメソッドを呼び出すが、そのメソッドは [[卓情報]] を更新するのみの実装である。卓情報から具体的な行動を決定し、応答を返す処理はサブクラスで実装する必要がある。
  */
-export class Player {
+export default class Player {
   /**
    * **`_model`** に空の卓情報をもつインスタンスを生成する。
    */

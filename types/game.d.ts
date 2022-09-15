@@ -1,10 +1,10 @@
 import { BoardInfo } from "./boardInfo";
 import { Menzi, Pai, Paipu, Paizi } from "./data";
 import { PlayerMessage, GameMessage } from "./message";
-import { Player } from "./player";
+import Player from "./player";
 import { Rule } from "./rule";
-import { Shan } from "./shan";
-import { Shoupai } from "./shoupai";
+import Shan from "./shan";
+import Shoupai from "./shoupai";
 import { View } from "./view";
 
 /** 対局終了時に呼ばれた関数 */
@@ -21,7 +21,7 @@ export type JiejuCallback = (paipu: Paipu) => void;
  * クラスメソッドで進行の妥当性を判断するための関数を提供する。
  * これらのメソッドは {@link Game} 自身が使用するだけでなく、{@link Player} が使用することも想定している。
  */
-export class Game {
+export default class Game {
   /**
    * 指定されたパラメータから対局を生成する。
    * @param players 指定された4名{@link Player | 対局者}の配列

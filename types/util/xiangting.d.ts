@@ -1,5 +1,5 @@
 import { Pai } from "../data";
-import { Shoupai } from "../shoupai";
+import Shoupai from "../shoupai";
 
 /**
  * シャンテン数計算関数
