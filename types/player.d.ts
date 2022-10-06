@@ -18,6 +18,7 @@ import {
 import { Rule } from "./rule";
 import Shan from "./shan";
 import Shoupai from "./shoupai";
+import Game from "./game";
 
 /**
  * 対応呼び出し関数
@@ -250,6 +251,14 @@ export default class Player {
    * @returns 九種九牌流局可能なら `true` を返す。
    */
   allow_pingju(shoupai: Shoupai): boolean;
+
+  /**
+   * {@link Rule | ルール} と {@link BoardInfo | 卓情報} を使用して {@link Game.allow_no_daopai} を呼び出し、
+   * **`shoupai`** で「テンパイ宣言」可能か判定する。
+   * @param shoupai {@link Shoupai}
+   * @returns 「テンパイ宣言」可能なら `true` を返す。
+   */
+  allow_no_daopai(shoupai: Shoupai): boolean;
 
   /**
    * **`kaiju`** を確認し空応答する処理を実装する。

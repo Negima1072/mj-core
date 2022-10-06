@@ -138,6 +138,14 @@ export default class Game {
   static allow_pingju(rule: Rule, shoupai: Shoupai, diyizimo: boolean): boolean;
 
   /**
+   * **`rule`** にしたがって **`shoupai`** が「ノーテン宣言」可能か判定する。
+   * @param rule {@link Rule | ルール}
+   * @param shoupai {@link Shoupai | 手牌}
+   * @param paishu 現在の残り牌数
+   */
+  static allow_no_daopai(rule: Rule, shoupai: Shoupai, paishu: number): boolean;
+
+  /**
    * インスタンス生成時に指定された {@link Player | 対局者} の配列。
    */
   _players: Player[];
