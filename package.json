@@ -1,6 +1,6 @@
 {
   "name": "@tanimodori/mj-core",
-  "version": "0.3.0",
+  "version": "1.0.2",
   "description": "麻雀基本ライブラリ",
   "publishConfig": {
     "access": "public"

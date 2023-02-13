@@ -35,7 +35,7 @@ import { Shoupai } from '@tanimodori/mj-core';
 | ``Majiang.He``      | 捨て牌を表現するクラス               |
 | ``Majiang.Util``    | シャンテン数計算、和了点計算ルーチン |
 | ``Majiang.Game``    | 局進行を実現するクラス               |
-| ``Majiang.Board``   | 卓に関する情報を表現するクラス       |
+| ``Majiang.Board``   | 卓情報を更新するクラス       |
 | ``Majiang.Player``  | 対局者を実現する基底クラス           |
 
 - [API仕様](https://github.com/Tanimodori/mj-core/wiki)

@@ -21,6 +21,7 @@ import {
   KaijuGameMessage,
   QipaiGameMessage,
   ZimoGameMessage,
+  JiejuGameMessage
 } from "./message";
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
@@ -121,6 +122,12 @@ export default class Board implements BoardInfo {
    * @remarks **`defen`** は使われていない。
    */
   pingju(pingju: Pick<Pingju["pingju"], "name" | "shoupai">): void;
+
+  /**
+   * **`paipu`** を卓情報に反映する。
+   * @param jieju {@link Paipu} (または {@link JiejuGameMessage})
+   */
+  jieju(paipu: Paipu | JiejuGameMessage["jieju"]): void;
 
   /**
    * 成立待ちのリーチ宣言を成立させる。

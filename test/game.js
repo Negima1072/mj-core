@@ -186,7 +186,6 @@ suite('Majiang.Game', ()=>{
         test('停止すること', ()=>{
             game.stop();
             assert.ok(game._stop);
-            assert.ok(! game._timeout_id);
             game._reply = [1,1,1,1];
             game.next();
         });
@@ -275,7 +274,7 @@ suite('Majiang.Game', ()=>{
 
         test('起家が設定されること', ()=>{
             MSG =[];
-            game.kaiju(1);
+            game.kaiju(0);
             assert.equal(game._model.qijia, 1);
         });
         test('牌譜が初期化されること', ()=>{
@@ -294,7 +293,7 @@ suite('Majiang.Game', ()=>{
                         rule:   game._rule,
                         title:  game._model.title,
                         player: game._model.player,
-                        qijia:  1
+                        qijia:  0
                     }
                 };
                 assert.deepEqual(MSG[id], msg);
@@ -1305,6 +1304,11 @@ suite('Majiang.Game', ()=>{
             game.jieju();
             assert.deepEqual(game._paipu.rank, [3,4,1,2]);
             assert.deepEqual(game._paipu.point, ['-15','-35','45','5']);
+        });
+        test('ハンドラがある場合、それを呼び出すこと', (done)=>{
+            const game = init_game();
+            game.handler = done;
+            game.jieju();
         });
     });
 

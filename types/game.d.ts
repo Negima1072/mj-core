@@ -300,6 +300,11 @@ export default class Game {
   _timeout_id?: number;
 
   /**
+   * {@link Game.jieju} から呼ぶ出される関数。 Majiang.Game#set-handler で設定する。
+   */
+  _handler?: () => void;
+
+  /**
    * 非同期モードで対局を開始する。
    * @param qijia 起家を指定すること(`0`〜`3`)。指定しない場合はランダムに起家を決定する。
    */
@@ -353,6 +358,11 @@ export default class Game {
    * インスタンス変数 **`_wait`** に **`wait`** を設定する。
    */
   set wait(wait: number);
+
+  /**
+   * インスタンス変数 **`_handler`** に **`handler`** を設定する。
+   */
+  set handler(callback: () => void);
 
   /**
    * 対局者からの応答を読み出し、対局の次のステップに進む。
